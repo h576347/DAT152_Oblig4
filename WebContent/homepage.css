@@ -4,13 +4,13 @@
     
 }
 
-.dropdown {
+.nav-dropdown {
   position: relative;
   display: inline-block;
   
 }
 
-.dropdown-content {
+.nav-dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -20,7 +20,7 @@
   z-index: 1;
 }
 
-.dropdown:hover .dropdown-content {
+.nav-dropdown:hover .nav-dropdown-content {
   display: block;
   background-color: #f5c71a;
 }
@@ -32,10 +32,10 @@
 }
 
 body{
-	background-color : black;
+    background-color : black;
 }
 
-ul {
+nav ul{
  font-variant-caps : normal;
   list-style-type: none;
   margin: 0;
@@ -44,18 +44,92 @@ ul {
   background-color: black;
 }
 
-li {
-  float: left;
+nav li{
+     float: left;
 }
 
-li a {
+nav li a {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
-li a:hover {
+nav li a:hover {
   background-color: #f5c71a;
   color : black;
+}
+.footer_text{
+    color:white;
+}
+
+#main_content{
+    position: relative;  
+}
+
+.responsive{
+    width : 100%;
+    height : auto;
+}
+.rent_form{
+  padding : 1rem;
+  position: absolute;
+  background-color: #eee;
+  top: 8px;
+  left: 16px;
+}
+
+.section-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.section-dropdown-content {
+  display: none;
+  position: absolute;
+  text-align: center;
+  background-color: #f9f9f9;
+  min-width: 80px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 5px 3px;
+  z-index: 1;
+}
+
+.section-dropdown:hover .section-dropdown-content {
+  display: block;
+  background-color: #eee;
+  
+}
+
+button{
+    border-radius: 0px;
+    padding : 5px 15px;
+}
+
+button.primary:hover{
+    background-color: #eee;
+    border: 2px solid #308dff;
+    color : #308dff;
+}
+
+button.secondary:hover {
+    background-color: #222;
+    border: 2px solid #ffd100;
+    color : #ffd100;
+}
+
+button.primary {
+    color : #eee;
+    background-color: #308dff;
+    border: 2px solid #308dff;
+}
+button.secondary {
+    background-color: #ffd100;
+    color: #000;
+    border: 2px solid #ffd100;
+}
+
+.grey_box{
+    background-color: #ccc;
+    padding : 10px 4px 10px 0px;
 }
