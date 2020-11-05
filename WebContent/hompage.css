@@ -1,12 +1,12 @@
-@charset "UTF-8";
 .frontpage{
-    background-color : black
+    background-color : black;
     
 }
 
 .dropdown {
   position: relative;
   display: inline-block;
+  
 }
 
 .dropdown-content {
@@ -14,20 +14,22 @@
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgb(245, 199, 25);
   padding: 12px 16px;
   z-index: 1;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
+  background-color: #f5c71a;
 }
 
-h1 {
+.logo_color {
     font-style : italic;
     font-weight : thick;
     color : #f5c71a;
 }
+
 
 ul {
  font-variant-caps : normal;
@@ -35,7 +37,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: black;
 }
 
 li {
@@ -50,5 +52,6 @@ li a {
   text-decoration: none;
 }
 li a:hover {
-  background-color: #111;
+  background-color: #f5c71a;
+  color : black;
 }
