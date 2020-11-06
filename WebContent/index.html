@@ -37,9 +37,10 @@
 
                 <label for="pick_up_location">Pick-up Location</label>
                 <br>
-                <input type="text" name="pick_up_location" id="pick_up_location">
+              
+                <input type="text" name="pick_up_location" id="pick_up_location" class="input_text">
                 <br><br>
-
+               
                 <a href="#find">Help me find a Hertz rental location</a>
                 <p>
                     <input type="checkbox" name="return_box" id="return_box">
@@ -50,7 +51,7 @@
                     <label for="dateAndTimeToPickUp">Pick up date and time </label>
                     <br>
                     <input type="date" name="dateAndTimeToPickUp" id="dateAndTimeToPickUp">
-                    <select name="pickUpTime" id="pickUpTime">
+                    <select name="pickUpTime" id="pickUpTime" class="clock">
                         <label for="pickUpTime">Clock to pick up</label>
                         <option value="00:00">00:00</option>
                         <option value="00:30">00:30</option>
@@ -105,7 +106,7 @@
 
                 <p> Return date and time</p>
                 <input type="date">
-                <select name="dropOff" id="dropOff">
+                <select name="dropOff" id="dropOff" class="clock">
                     <label for="dropOff">Clock to drop off</label>
                     <option value="00:00">00:00</option>
                     <option value="00:30">00:30</option>
@@ -158,7 +159,7 @@
                 </select>
                 <hr class=rounded>
                 <p> <label for="car-type">Hire Car Type:</label></p>
-                <select id="car-type" name="selectedCarType">
+                <select id="car-type" name="selectedCarType" class="car">
 
                     <option value="0" selected="selected"> Choose a car</option>
                     <option value="A">Class A</option>
