@@ -1,131 +1,187 @@
 @charset "UTF-8";
 
+
+.headernav {
+    overflow: hidden;
+    background-color: #000;
+}
+
+.headernav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
 .nav-dropdown {
-  position: relative;
-  display: inline-block;
-  
+    position: relative;
+    display: inline-block;
+
 }
 
 .nav-dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgb(245, 199, 25);
-  padding: 12px 16px;
-  z-index: 1;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(245, 199, 25);
+    padding: 12px 16px;
+    z-index: 1;
 }
 
 .nav-dropdown:hover .nav-dropdown-content {
-  display: block;
-  background-color: #f5c71a;
+    display: block;
+    background-color: #f5c71a;
 }
 
-.logo_color {
-    font-style : italic;
-    font-weight : thick;
-    color : #f5c71a;
+body {
+    background-color: black;
 }
 
-body{
-    background-color : black;
+nav ul {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
 }
 
-nav ul{
- font-variant-caps : normal;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: black;
-}
-
-nav li{
-     float: left;
+nav li {
+    float: left;
 }
 
 nav li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
+
 nav li a:hover {
-  background-color: #f5c71a;
-  color : black;
-}
-.footer_text{
-    color:white;
+    background-color: #f5c71a;
+    color: #000;
 }
 
-#main_content{
-    position: relative;  
+footer {
+    background-color: #000;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
 }
 
-.responsive{
-    width : 100%;
-    height : auto;
+aside {
+    position: bottom;
+    background-color: none;
+    color: #fff;
+    width: 100%;
+    float: center;
+    padding-bottom: 20px;
+
 }
-.rent_form{
-  padding : 1rem;
-  position: absolute;
-  background-color: #eee;
-  top: 8px;
-  left: 16px;
+
+
+.fieldset {
+    border: 2px solid  #ffd100;
+
+}
+
+#main_content {
+    position: relative;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.rent_form {
+    padding: 1rem;
+    position: absolute;
+    background-color: #eee;
+    top: 8px;
+    left: 16px;
 }
 
 .section-dropdown {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
 }
 
 .section-dropdown-content {
-  display: none;
-  position: absolute;
-  text-align: center;
-  background-color: #f9f9f9;
-  min-width: 80px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 5px 3px;
-  z-index: 1;
+    display: none;
+    position: absolute;
+    text-align: center;
+    background-color: #f9f9f9;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 5px 3px;
+    z-index: 1;
 }
 
 .section-dropdown:hover .section-dropdown-content {
-  display: block;
-  background-color: #eee;
-  
+    display: block;
+    background-color: #eee;
+
 }
 
-button{
+button {
     border-radius: 0px;
-    padding : 5px 15px;
+    padding: 5px 15px;
 }
 
-button.primary:hover{
+button.primary:hover {
     background-color: #eee;
     border: 2px solid #308dff;
-    color : #308dff;
+    color: #308dff;
 }
 
 button.secondary:hover {
     background-color: #222;
     border: 2px solid #ffd100;
-    color : #ffd100;
+    color: #ffd100;
 }
 
 button.primary {
-    color : #eee;
+    color: #eee;
     background-color: #308dff;
     border: 2px solid #308dff;
 }
+
 button.secondary {
     background-color: #ffd100;
     color: #000;
     border: 2px solid #ffd100;
 }
 
-.grey_box{
+.grey_box {
     background-color: #ccc;
-    padding : 10px 4px 10px 0px;
+    padding: 10px 4px 10px 0px;
+}
+
+
+button.log_in{
+    background-color: #ffd100;
+    position: top-right;
+    color: #000;
+}
+
+button.log_in:hover{
+    background-color: #000;
+    color : #ffd100;
+    
+}
+
+.info_page {
+    font-size: 13px;
+    text-align: center;
+    color: #eee;
+
 }
